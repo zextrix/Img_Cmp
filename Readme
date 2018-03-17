@@ -1,0 +1,12 @@
+Instructions to run the project:
+
+1. First run the java project and only enter 1( or else the code will crash as it won't find a file which is created later on).
+2. Run the .cpp file
+3. Go back to the java project and then enter 2 while the code is running.
+
+The general idea is that:
+-> An image is taken, here specifically named index.bmp .
+-> The image's pixel values are taken in java, stored onto a .txt file.
+-> The .cpp file shifts the pixel values.
+-> The shifted pixel values are used to create a new image in java.
+
