@@ -1,6 +1,9 @@
 Instructions to run the project:
 
-1. First run the java project and only enter 1( or else the code will crash as it won't find a file which is created later on).
+Firstly, download the index.bmp image as given in the folder on D:\ drive or make necessary changes in the code to detect the image.
+Also, the image dimensions are hard-coded in the main class, so please use the image given only.
+
+1. Run the java project and only enter 1( or else the code will crash as it won't find a file which is created later on).
 2. Run the .cpp file
 3. Go back to the java project and then enter 2 while the code is running.
 
