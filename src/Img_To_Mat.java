@@ -1,5 +1,3 @@
-import org.checkerframework.checker.initialization.qual.Initialized;
-import org.checkerframework.checker.nullness.qual.*;
 
 
 import java.io.File;
@@ -12,11 +10,11 @@ public class Img_To_Mat
     /*
      * basic logic :
      * 1.convert image to matrix
-     * 2.left shift them parallely in c
+     * 2.shift them parallely in c
      * 3.get back matrix and then reform image
      */
     static int w1,h1;
-    @Initialized @Nullable public int[][] compute(File file)//convert image to matrix
+    public int[][] compute(File file)//convert image to matrix
     {
         try
         {
